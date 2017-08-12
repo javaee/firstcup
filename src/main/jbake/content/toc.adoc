@@ -1,0 +1,146 @@
+type=page
+status=published
+title=Java Platform, Enterprise Edition Your First Cup: An Introduction to the Java EE Platform Java Platform, Enterprise Edition, Release 8
+next=title.html
+~~~~~~
+Java Platform, Enterprise Edition Your First Cup: An Introduction to the Java EE Platform Java Platform, Enterprise Edition, Release 8
+======================================================================================================================================
+
+[[contents]]
+Contents
+--------
+
+[[title-and-copyright-information]]
+link:title.html[Title and Copyright Information]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[[preface]]
+link:preface.html#GCQYW[Preface]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* link:preface.html#sthref2[Audience]
+* link:preface.html#sthref3[Documentation Accessibility]
+* link:preface.html#GCQYU[Before You Read This Book]
+* link:preface.html#GCQXV[Related Books and Projects]
+* link:preface.html#sthref5[Conventions]
+
+[[introduction]]
+link:intro.html#GCQYB[1 Introduction]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* link:intro001.html#GCQYJ[Goals of This Tutorial]
+* link:intro002.html#GCQZL[Prerequisite Tasks for Completing This
+Tutorial]
+
+** link:intro002.html#GCRNX[Get the Java EE 7 SDK]
+
+** link:intro002.html#GCRNU[Install the NetBeans IDE Distribution for
+Java EE]
+
+** link:intro002.html#GIOEW[Add GlassFish Server as a Server in NetBeans
+IDE]
+
+** link:intro002.html#GIMVN[Get the Latest Updates to this Tutorial]
+
+[[understanding-java-platform-enterprise-edition]]
+link:java-ee.html#GCRLO[2 Understanding Java Platform, Enterprise Edition]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* link:java-ee001.html#GCRKY[Overview of Enterprise Applications]
+
+** link:java-ee001.html#GCRKR[Tiered Applications]
+*** link:java-ee001.html#GCRLA[The Client Tier]
+*** link:java-ee001.html#GCRNL[The Web Tier]
+*** link:java-ee001.html#GCRLS[The Business Tier]
+*** link:java-ee001.html#GCRKW[The Enterprise Information Systems Tier]
+* link:java-ee002.html#GCRKQ[Java EE Servers and Containers]
+
+** link:java-ee002.html#GCRMB[The Web Container]
+
+** link:java-ee002.html#GCRMA[The EJB Container]
+
+** link:java-ee002.html#GCRLJ[The Application Client Container]
+
+[[creating-your-first-java-ee-application]]
+link:creating-example.html#GCRKP[3 Creating Your First Java EE Application]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* link:creating-example001.html#GKHQT[Architecture of the Example
+Applications]
+
+** link:creating-example001.html#GCRLR[Tiers in the Example Applications]
+
+** link:creating-example001.html#GCRLU[Java EE Technologies Used in the
+Example Applications]
+* link:creating-example002.html#GCRKM[Coding the dukes-age Example
+Application]
+
+** link:creating-example002.html#GCSKG[Getting Started]
+*** link:creating-example002.html#GCSKJ[Install the Maven Archetypes]
+
+** link:creating-example002.html#GCRKN[Creating the Web Service]
+*** link:creating-example002.html#GCROM[JAX-RS Resources]
+*** link:creating-example002.html#GCROI[Creating the dukes-age
+Application Using the Maven Archetype]
+*** link:creating-example002.html#sthref9[Starting GlassFish Server and
+the Database Server]
+*** link:creating-example002.html#GCTOZ[Building and Deploying the Web
+Service Endpoint]
+
+[[creating-your-second-web-application]]
+link:web-application.html#GLCFC[4 Creating Your Second Web Application]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* link:web-application001.html#GJBCA[The firstcup-war Project]
+* link:web-application002.html#GIMNT[Creating the Web Application Project
+Using the Archetype]
+* link:web-application003.html#GJBCS[Modifying the Java Persistence API
+Entity]
+
+** link:web-application003.html#GKKNN[Edit the Constructor of the
+FirstcupUser Entity]
+
+** link:web-application003.html#GJBCM[Add a Named Query to the
+FirstcupUser Entity]
+* link:web-application004.html#GCRLX[Modifying the Enterprise Bean]
+
+** link:web-application004.html#GJBCU[Implement a Business Method to
+DukesBirthdayBean that Gets the Average Age Difference of firstcup-war
+Users]
+
+** link:web-application004.html#GKGOT[Implement a Business Method for
+Calculating the Age Difference Between Duke and the User]
+* link:web-application005.html#GCRLT[Modifying the Web Client]
+
+** link:web-application005.html#GCRQX[Modify the DukesBDay Managed Bean
+Class]
+*** link:web-application005.html#sthref10[Call the dukes-age Web Service
+to Retrieve Duke's Current Age]
+*** link:web-application005.html#GCRSA[Get the Age Difference from the
+DukesBirthdayBean Enterprise Bean]
+
+** link:web-application005.html#GIMVD[Creating the Facelets Client]
+*** link:web-application005.html#GIMUG[Resource Libraries in
+firstcup-war]
+*** link:web-application005.html#GIMTW[The inputDate Composite Component]
+*** link:web-application005.html#GIMWV[Implement the inputDate Composite
+Component]
+*** link:web-application005.html#GIMUM[The Facelets Web Interface]
+*** link:web-application005.html#GIMTA[Add the Form to greeting.xhtml]
+*** link:web-application005.html#GIMVW[Add the Form to response.html]
+* link:web-application006.html#GCTNX[Building, Packaging, Deploying, and
+Running the firstcup-war Web Application]
+
+** link:web-application006.html#GCTOJ[Build, Package, and Deploy the
+firstcup-war Web Application]
+
+** link:web-application006.html#GCTQC[Run the firstcup-war Application]
+
+[[next-steps]]
+link:next-steps.html#GCRLL[5 Next Steps]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* link:next-steps001.html#GCRLH[The Java EE Tutorial]
+* link:next-steps002.html#GKHRA[More Information on the Java EE Platform]
+
+

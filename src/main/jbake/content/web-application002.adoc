@@ -1,0 +1,46 @@
+type=page
+status=published
+title=Creating the Web Application Project Using the Archetype
+next=web-application003.html
+prev=web-application001.html
+~~~~~~
+Creating the Web Application Project Using the Archetype
+========================================================
+
+[[GIMNT]]
+
+[[creating-the-web-application-project-using-the-archetype]]
+Creating the Web Application Project Using the Archetype
+--------------------------------------------------------
+
+Follow these steps to create a new web application project using the
+`firstcup-war-archetype` in NetBeans IDE.
+
+1.  From the File menu, select New Project.
+2.  Under Projects, select Project from Archetype.
+3.  Click Next.
+4.  In the Search field, enter `firstcup`.
+5.  In the Known Archetypes field, select `firstcup-war-archetype`.
+6.  Click Next.
+7.  In the Project Name field, enter `firstcup-war`.
+8.  In the Package field, enter `firstcup`.
+9.  Click Finish.
++
+You should now see the module you created in the Projects tab.
+
+The `firstcup-war-archetype` archetype creates the structure of the web
+application, including the following:
+
+* Basic entity classes
+* Basic enterprise bean classes
+* Basic backing bean classes
+* Basic Facelets XHTML components and views
+* The `web.xml`, `faces-config.xml`, and `persistence.xml` deployment
+descriptors
+
+After you create the basic application structure with the archetype, you
+will configure how the application will run, implement the functionality
+of the classes, implement the Facelets views, and then deploy the
+application.
+
+

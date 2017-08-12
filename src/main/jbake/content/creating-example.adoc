@@ -1,0 +1,20 @@
+type=page
+status=published
+title=Creating Your First Java EE Application
+next=creating-example001.html
+prev=java-ee002.html
+~~~~~~
+Creating Your First Java EE Application
+=======================================
+
+[[GCRKP]]
+
+[[creating-your-first-java-ee-application]]
+3 Creating Your First Java EE Application
+-----------------------------------------
+
+This chapter gives an overview of the example applications and
+step-by-step instructions on coding and running the `dukes-age` web
+service example application.
+
+

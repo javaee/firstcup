@@ -1,0 +1,33 @@
+type=page
+status=published
+title=The firstcup-war Project
+next=web-application002.html
+prev=web-application.html
+~~~~~~
+The firstcup-war Project
+========================
+
+[[GJBCA]]
+
+[[the-firstcup-war-project]]
+The firstcup-war Project
+------------------------
+
+The `firstcup-war` web application project consists of the Java
+Persistence API entity, the enterprise bean, and the JavaServer Faces
+web front end.
+
+The `firstcup-war` example application consumes the data from the
+`dukes-age` web service using the JAX-RS client API. A JavaServer Faces
+web front end asks users to enter their birthdays to find out who is
+older, the user or Duke. This data is stored in a Java DB database table
+using the Java Persistence API. The business logic, which provides the
+core functionality of the application, is handled by an enterprise bean.
+
+All the tiers described in link:java-ee001.html#GCRKR[Tiered
+Applications] are present in the `firstcup-war` web application. The web
+or client tier is the JavaServer Faces front end. The enterprise
+information systems, or EIS, tier is the Java DB database. The business
+tier is the enterprise bean.
+
+

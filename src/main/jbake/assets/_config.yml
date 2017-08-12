@@ -1,0 +1,14 @@
+theme: jekyll-theme-architect
+
+title: [First Cup of Java EE Tutorial]
+description: [First Cup of Java EE Tutorial Project]
+
+# sidebar links url
+links:
+  source: https://github.com/javaee/firstcup
+  download: https://github.com/javaee/firstcup/releases
+  #mailinglist: https://javaee.groups.io/g/tutorial
+  #javadocs:
+  docs: https://javaee.github.io/firstcup
+  #faq:
+

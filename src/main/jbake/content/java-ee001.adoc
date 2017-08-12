@@ -1,0 +1,152 @@
+type=page
+status=published
+title=Overview of Enterprise Applications
+next=java-ee002.html
+prev=java-ee.html
+~~~~~~
+Overview of Enterprise Applications
+===================================
+
+[[GCRKY]]
+
+[[overview-of-enterprise-applications]]
+Overview of Enterprise Applications
+-----------------------------------
+
+This section describes enterprise applications and how they are designed
+and developed.
+
+As stated above, the Java EE platform is designed to help developers
+create large-scale, multi-tiered, scalable, reliable, and secure network
+applications. A shorthand name for such applications is "enterprise
+applications," so called because these applications are designed to
+solve the problems encountered by large enterprises. Enterprise
+applications are not only useful for large corporations, agencies, and
+governments, however. The benefits of an enterprise application are
+helpful, even essential, for individual developers and small
+organizations in an increasingly networked world.
+
+The features that make enterprise applications powerful, like security
+and reliability, often make these applications complex. The Java EE
+platform reduces the complexity of enterprise application development by
+providing a development model, API, and runtime environment that allow
+developers to concentrate on functionality.
+
+[[GCRKR]]
+
+[[tiered-applications]]
+Tiered Applications
+~~~~~~~~~~~~~~~~~~~
+
+In a multi-tiered application, the functionality of the application is
+separated into isolated functional areas, called tiers. Typically,
+multi-tiered applications have a client tier, a middle tier, and a data
+tier (often called the enterprise information systems tier). The client
+tier consists of a client program that makes requests to the middle
+tier. The middle tier is divided into a web tier and a business tier,
+which handle client requests and process application data, storing it in
+a permanent datastore in the data tier.
+
+Java EE application development concentrates on the middle tier to make
+enterprise application management easier, more robust, and more secure.
+
+[[GCRLA]]
+
+[[the-client-tier]]
+The Client Tier
+^^^^^^^^^^^^^^^
+
+The client tier consists of application clients that access a Java EE
+server and that are usually located on a different machine from the
+server. The clients make requests to the server. The server processes
+the requests and returns a response back to the client. Many different
+types of applications can be Java EE clients, and they are not always,
+or even often Java applications. Clients can be a web browser, a
+standalone application, or other servers, and they run on a different
+machine from the Java EE server.
+
+[[GCRNL]]
+
+[[the-web-tier]]
+The Web Tier
+^^^^^^^^^^^^
+
+The web tier consists of components that handle the interaction between
+clients and the business tier. Its primary tasks are the following:
+
+* Dynamically generate content in various formats for the client
+* Collect input from users of the client interface and return
+appropriate results from the components in the business tier
+* Control the flow of screens or pages on the client
+* Maintain the state of data for a user's session
+* Perform some basic logic and hold some data temporarily in managed
+beans
+
+link:#GCTOG[Table 2-1] lists some of the main Java EE technologies that
+are used in the web tier in Java EE applications.
+
+[[sthref6]][[GCTOG]]
+
+Table 2-1 Web-Tier Java EE Technologies
+
+[width="44%",cols="100%,",options="header",]
+|=======================================================================
+|Technology |Purpose
+|JavaServer Faces technology |A user-interface component framework for
+web applications that allows you to include UI components (such as
+fields and buttons) on a XHTML page, called a Facelets page; convert and
+validate UI component data; save UI component data to server-side data
+stores; and maintain component state
+
+|Expression Language |A set of standard tags used in Facelets pages to
+refer to Java EE components
+
+|Servlets |Java programming language classes that dynamically process
+requests and construct responses, usually for HTML pages
+
+|Contexts and Dependency Injection for Java EE |A set of contextual
+services that make it easy for developers to use enterprise beans along
+with JavaServer Faces technology in web applications
+|=======================================================================
+
+
+[[GCRLS]]
+
+[[the-business-tier]]
+The Business Tier
+^^^^^^^^^^^^^^^^^
+
+The business tier consists of components that provide the business logic
+for an application. Business logic is code that provides functionality
+to a particular business domain, like the financial industry, or an
+e-commerce site. In a properly designed enterprise application, the core
+functionality exists in the business tier components.
+
+The following Java EE technologies are among those that are used in the
+business tier in Java EE applications:
+
+* Enterprise JavaBeans (enterprise bean) components
+* JAX-RS RESTful web services
+* Java Persistence API entities
+
+[[GCRKW]]
+
+[[the-enterprise-information-systems-tier]]
+The Enterprise Information Systems Tier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The enterprise information systems (EIS) tier consists of database
+servers, enterprise resource planning systems, and other legacy data
+sources, like mainframes. These resources typically are located on a
+separate machine from the Java EE server, and are accessed by components
+on the business tier.
+
+The following Java EE technologies are used to access the EIS tier in
+Java EE applications:
+
+* The Java Database Connectivity API (JDBC)
+* The Java Persistence API
+* The Java EE Connector Architecture
+* The Java Transaction API (JTA)
+
+

@@ -1,0 +1,226 @@
+type=page
+status=published
+title=Coding the dukes-age Example Application
+next=web-application.html
+prev=creating-example001.html
+~~~~~~
+Coding the dukes-age Example Application
+========================================
+
+[[GCRKM]]
+
+[[coding-the-dukes-age-example-application]]
+Coding the dukes-age Example Application
+----------------------------------------
+
+This section describes how to code the `dukes-age` example application,
+a web application containing a JAX-RS RESTful web service endpoint.
+
+[[GCSKG]]
+
+[[getting-started]]
+Getting Started
+~~~~~~~~~~~~~~~
+
+Before you start coding the example, you need to perform some
+configuration tasks:
+
+1.  Register the server with your NetBeans IDE as described in
+link:intro002.html#GIOEW[Add GlassFish Server as a Server in NetBeans
+IDE].
+2.  Install the Maven archetypes used to create the example
+applications.
+
+[[GCSKJ]]
+
+[[install-the-maven-archetypes]]
+Install the Maven Archetypes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Maven archetypes are templates that create the structure of a particular
+application. There are two archetypes included in the example,
+`dukes-age-archetype` and `firstcup-war-archetype`. These archetypes
+create Java EE 7 web applications that you will then edit and deploy.
+
+Before you can create applications based on the archetypes, you must
+first install the archetypes and supporting projects to your local Maven
+repository by following these steps:
+
+1.  In NetBeans IDE select File, then Open Project, navigate to the
+location where you installed the tutorial (usually
+`glassfish4/docs/firstcup`), select `example`, deselect the Open
+Required Projects check box, and click Open Project.
+2.  Right-click the `firstcup` project in the Projects pane and select
+Build.
+
+The required projects, including the archetypes, will be built.
+
+[[GCRKN]]
+
+[[creating-the-web-service]]
+Creating the Web Service
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+The `DukesAgeResource` endpoint is a simple RESTful web service. REST
+stands for representational state transfer, and software architectures
+that conform to the principles of REST are referred to as RESTful.
+RESTful web services are web-based applications that use the HTTP
+protocol to access, modify, or delete information contained within a
+resource. A RESTful web service resource is a source of specific
+information identifiable by a uniform resource identifier (URI), for
+example `http://example.com/someResource`, and may be manipulated by
+calling the HTTP protocol's methods, for example GET or POST.
+
+Web services are designed to be independent of their clients. Typically
+RESTful web services are publicly available to a wide variety of
+clients, and the clients are located throughout the Internet. This is
+called "loose coupling," as the clients and servers are connected only
+by the standard HTTP-based requests and responses, and do not need to
+know each other's implementation details. For this reason, `dukes-age`
+will be developed in its own application module and deployed separately
+from the `DukesBirthdayBean` enterprise bean and `firstcup-war` web
+client. `dukes-age` could be deployed on a completely different machine
+without affecting the functionality of the `firstcup-war` web client.
+
+[[GCROM]]
+
+[[jax-rs-resources]]
+JAX-RS Resources
+^^^^^^^^^^^^^^^^
+
+`DukesAgeResource` is a JAX-RS resource class that responds to HTTP GET
+requests and returns a `String` representing the age of Duke at the time
+of the request.
+
+The basic `DukesAgeResource` resource class is generated from the
+`dukes-age-archetype` Maven archetype. This class is annotated with the
+`javax.ws.rs.Path` annotation, which specifies the URL suffix to which
+the resource will respond. `DukesAgeResource` has a single method,
+`getText`, annotated with the `javax.ws.rs.GET` and
+`javax.ws.rs.Produces` annotations. `@GET` marks the method as a
+responder to HTTP GET requests, and `@Produces` specifies the MIME-type
+of the response sent back from `getText` to clients. In this case, the
+MIME-type is `text/plain`.
+
+[[GCROI]]
+
+[[creating-the-dukes-age-application-using-the-maven-archetype]]
+Creating the dukes-age Application Using the Maven Archetype
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In NetBeans IDE, create a new web project using the
+`dukes-age-archetype` Maven archetype.
+
+Create the Project in NetBeans IDE 
+
+1.  From the File menu, select New Project.
+2.  Under Categories, select Maven.
+3.  Under Projects, select Project from Archetype.
+4.  Click Next.
+5.  In the Search field, enter `dukes-age`.
+6.  In the Known Archetypes field, select `dukes-age-archetype`.
+7.  Click Next.
+8.  In the Project Name field, enter `dukes-age`.
+9.  In the Package field, enter `firstcup.dukesage.resource`.
+10. Click Finish.
++
+You should now see the module you created in the Projects tab. The
+project is created in the `NetBeansProjects` directory under your home
+directory.
+
+The `dukes-age-archetype` archetype creates the structure of the JAX-RS
+endpoint application, including:
+
+* The `DukesAgeResource` resource class
+* The `web.xml` deployment descriptor
+
+After you create the basic application structure with the archetype, you
+will configure how the application will run, implement the functionality
+of the resource class, and then deploy the application.
+
+Configure the dukes-age Web Application
+
+Set the default URL that is brought up in a web browser when you run
+`dukes-age`.
+
+1.  In the Projects tab, right-click the `dukes-age` project and select
+Properties.
+2.  Under Categories, click Run.
+3.  Under Server select the GlassFish Server instance you configured.
+4.  Under Relative URL enter `/webapi/dukesAge`.
+5.  Click OK.
+
+Implement the getText Method
+
+Add code to `DukesAgeResource.getText` that calculates Duke's age at the
+time of the request. To do this, use the `java.util.Calendar` and
+`java.util.GregorianCalendar` classes to create an object representing
+the date May 23, 1995, Duke's birthday. Then create another `Calendar`
+object representing today's date, and subtract today's year from Duke's
+birth year. If today's date falls before May 23, subtract a year from
+this result. Then return the result as a `String` representation.
+
+1.  Expand the Source Packages node, expand the
+`firstcup.dukesage.resource` node, then double-click the
+`DukesAgeResource.java` file to open it in the editor window.
+2.  Highlight the current code in `getText` and replace it with the
+following code:
++
+[source,oac_no_warn]
+----
+// Create a new Calendar for Duke's birthday
+Calendar dukesBirthday = new GregorianCalendar(1995, Calendar.MAY, 23);
+// Create a new Calendar for today
+Calendar now = GregorianCalendar.getInstance();
+
+// Subtract today's year from Duke's birth year, 1995
+int dukesAge = now.get(Calendar.YEAR) - dukesBirthday.get(Calendar.YEAR);
+dukesBirthday.add(Calendar.YEAR, dukesAge);
+
+// If today's date is before May 23, subtract a year from Duke's age
+if (now.before(dukesBirthday)) {
+    dukesAge--;
+}
+// Return a String representation of Duke's age
+return "" + dukesAge;
+----
+3.  In the editor window, right-click and select Format.
+4.  From the File menu, select Save to save the file.
+
+[[sthref9]]
+
+[[starting-glassfish-server-and-the-database-server]]
+Starting GlassFish Server and the Database Server
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Follow these steps to start GlassFish Server and the Java DB database
+server.
+
+1.  Click the Services tab.
+2.  Expand Servers.
+3.  Right-click the GlassFish Server instance and select Start.
++
+Both the database server and the GlassFish Server instance will start.
+In the tab where the GlassFish Server instance is running, you can see
+the contents of the server log.
+
+[[GCTOZ]]
+
+[[building-and-deploying-the-web-service-endpoint]]
+Building and Deploying the Web Service Endpoint
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Build `dukes-age.war`, the JAX-RS web application, and deploy it to your
+GlassFish Server instance.
+
+In the Projects tab, right-click `dukes-age` and select Run.
+
+After `dukes-age.war` deploys successfully to GlassFish Server, a web
+browser will load the URL of the `DukesAgeResource` path, and you'll see
+the returned `String` representing Duke's age.
+
+At this point, you've successfully created, deployed, and run your first
+Java EE application. Now you will create a web application that uses
+this web service data.
+
+

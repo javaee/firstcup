@@ -1,0 +1,69 @@
+type=page
+status=published
+title=Java EE Servers and Containers
+next=creating-example.html
+prev=java-ee001.html
+~~~~~~
+Java EE Servers and Containers
+==============================
+
+[[GCRKQ]]
+
+[[java-ee-servers-and-containers]]
+Java EE Servers and Containers
+------------------------------
+
+A Java EE server is a server application that implements the Java EE
+platform APIs and provides standard Java EE services. Java EE servers
+are sometimes called application servers, because they allow you to
+serve application data to clients, much as web servers serve web pages
+to web browsers.
+
+Java EE servers host several application component types that correspond
+to the tiers in a multi-tiered application. The Java EE server provides
+services to these components in the form of a container.
+
+Java EE containers are the interface between the component and the
+lower-level functionality provided by the platform to support that
+component. The functionality of the container is defined by the platform
+and is different for each component type. Nonetheless, the server allows
+the different component types to work together to provide functionality
+in an enterprise application.
+
+[[GCRMB]]
+
+[[the-web-container]]
+The Web Container
+~~~~~~~~~~~~~~~~~
+
+The web container is the interface between web components and the web
+server. A web component can be a servlet or a JavaServer Faces Facelets
+page. The container manages the component's lifecycle, dispatches
+requests to application components, and provides interfaces to context
+data, such as information about the current request.
+
+[[GCRMA]]
+
+[[the-ejb-container]]
+The EJB Container
+~~~~~~~~~~~~~~~~~
+
+The EJB container is the interface between enterprise beans, which
+provide the business logic in a Java EE application, and the Java EE
+server. The EJB container runs on the Java EE server and manages the
+execution of an application's enterprise beans.
+
+[[GCRLJ]]
+
+[[the-application-client-container]]
+The Application Client Container
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The application client container is the interface between Java EE
+application clients (special Java SE applications that use Java EE
+server components) and the Java EE server. The application client
+container runs on the client machine and is the gateway between the
+client application and the Java EE server components that the client
+uses.
+
+

@@ -1,0 +1,21 @@
+type=page
+status=published
+title=More Information on the Java EE Platform
+prev=next-steps001.html
+~~~~~~
+More Information on the Java EE Platform
+========================================
+
+[[GKHRA]]
+
+[[more-information-on-the-java-ee-platform]]
+More Information on the Java EE Platform
+----------------------------------------
+
+For more information on the Java EE platform, see these resources:
+
+* The GlassFish project (`http://glassfish.java.net/`)
+* The Aquarium (`http://blogs.oracle.com/theaquarium/`), a blog about
+GlassFish Server and open-source Java EE projects
+
+

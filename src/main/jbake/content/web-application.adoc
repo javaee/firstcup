@@ -1,0 +1,32 @@
+type=page
+status=published
+title=Creating Your Second Web Application
+next=web-application001.html
+prev=creating-example002.html
+~~~~~~
+Creating Your Second Web Application
+====================================
+
+[[GLCFC]]
+
+[[creating-your-second-web-application]]
+4 Creating Your Second Web Application
+--------------------------------------
+
+This chapter gives step-by-step instructions on coding and running the
+`firstcup-war` web application, which uses the `dukes-age` web service
+described in link:creating-example.html#GCRKP[Chapter 3, "Creating Your
+First Java EE Application"]. The `firstcup-war` web application is a
+more complicated application that uses several different Java EE APIs.
+
+* link:web-application001.html#GJBCA[The firstcup-war Project]
+* link:web-application002.html#GIMNT[Creating the Web Application Project
+Using the Archetype]
+* link:web-application003.html#GJBCS[Modifying the Java Persistence API
+Entity]
+* link:web-application004.html#GCRLX[Modifying the Enterprise Bean]
+* link:web-application005.html#GCRLT[Modifying the Web Client]
+* link:web-application006.html#GCTNX[Building, Packaging, Deploying, and
+Running the firstcup-war Web Application]
+
+

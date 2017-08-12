@@ -1,0 +1,50 @@
+type=page
+status=published
+title=Building, Packaging, Deploying, and Running the firstcup-war Web Application
+next=next-steps.html
+prev=web-application005.html
+~~~~~~
+Building, Packaging, Deploying, and Running the firstcup-war Web Application
+============================================================================
+
+[[GCTNX]]
+
+[[building-packaging-deploying-and-running-the-firstcup-war-web-application]]
+Building, Packaging, Deploying, and Running the firstcup-war Web Application
+----------------------------------------------------------------------------
+
+In this section, you will build the `firstcup-war` web application,
+deploy it to the server, and run the application.
+
+[[GCTOJ]]
+
+[[build-package-and-deploy-the-firstcup-war-web-application]]
+Build, Package, and Deploy the firstcup-war Web Application
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Now build and package the `DukesBirthdayBean` enterprise bean, the
+`FirstcupUser` entity, and the `firstcup-war` web client into a WAR
+file, `firstcup-war.war`, then deploy it to the server.
+
+1.  In the Projects tab, select the `firstcup-war` project.
+2.  Right-click `firstcup-war` and select Run.
+
+After `firstcup-war.war` deploys successfully to GlassFish Server, a web
+browser will load the application URL.
+
+[[GCTQC]]
+
+[[run-the-firstcup-war-application]]
+Run the firstcup-war Application
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1.  On the greeting page, enter your birth date in the Your birthday
+field. Make sure you use the date pattern specified on the page:
+MM/dd/yyyy.
+2.  Click Submit.
+3.  After the `response.xhtml` page is displayed, click Back to return
+to the `greeting.xhtml` page.
+4.  Enter a different birthday in the text field and click Submit again
+to see how the average age of First Cup users changes.
+
+

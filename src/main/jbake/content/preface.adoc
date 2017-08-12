@@ -1,0 +1,116 @@
+type=page
+status=published
+title=Preface
+next=intro.html
+prev=title.html
+~~~~~~
+Preface
+=======
+
+[[GCQYW]]
+
+[[preface]]
+Preface
+-------
+
+This is Your First Cup: An Introduction to Java Platform, Enterprise
+Edition, a short tutorial for beginning Java EE programmers. This
+tutorial is designed to give you a hands-on lesson on developing an
+enterprise application from initial coding to deployment.
+
+[[sthref2]]
+
+[[audience]]
+Audience
+~~~~~~~~
+
+This tutorial is intended for novice Java EE developers. You should be
+familiar with the Java programming language, particularly the features
+introduced in Java Platform, Standard Edition 7. While familiarity with
+enterprise development and Java EE technologies is helpful, this
+tutorial assumes you are new to developing Java EE applications.
+
+[[sthref3]]
+
+[[documentation-accessibility]]
+Documentation Accessibility
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For information about Oracle's commitment to accessibility, visit the
+Oracle Accessibility Program website at
+`http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc`.
+
+[[sthref4]]
+
+Access to Oracle Support
+
+Oracle customers that have purchased support have access to electronic
+support through My Oracle Support. For information, visit
+`http://www.oracle.com/pls/topic/lookup?ctx=acc&id=info` or visit
+`http://www.oracle.com/pls/topic/lookup?ctx=acc&id=trs` if you are
+hearing impaired.
+
+[[GCQYU]]
+
+[[before-you-read-this-book]]
+Before You Read This Book
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Before you start this tutorial, you should:
+
+* Be familiar with the Java programming language
+* Be able to install software on your work machine
+* Have a modern web browser installed on your work machine
+
+[[GCQXV]]
+
+[[related-books-and-projects]]
+Related Books and Projects
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following books and projects may be helpful to you in understanding
+this tutorial:
+
+* The https://javaee.github.io/tutorial[Java EE Tutorial]
+* The GlassFish Server Open Source Edition documentation set
+* The NetBeans IDE documentation
+
+[[sthref5]]
+
+[[conventions]]
+Conventions
+~~~~~~~~~~~
+
+The following table describes the typographic conventions that are used
+in this book.
+
+[width="55%",cols="28%,72%,",options="header",]
+|=======================================================================
+|Convention |Meaning |Example
+|Boldface |Boldface type indicates graphical user interface elements
+associated with an action, or terms defined in text. a|
+From the File menu, select New Project.
+
+A cache is a copy that is stored locally.
+
+|`Monospace` |Monospace type indicates the names of files and
+directories, commands within a paragraph, URLs, code in examples, text
+that appears on the screen, or text that you enter. a|
+Edit your `.login` file.
+
+Use `ls` `a` to list all files.
+
+`machine_name% you have mail.`
+
+|Italic |Italic type indicates book titles, emphasis, or placeholder
+variables for which you supply particular values. a|
+The command to remove a file is `rm` filename.
+
+Read Chapter 6 in the User's Guide.
+
+Do not save the file.
+
+|=======================================================================
+
+
+
