@@ -4,8 +4,8 @@ title=Introduction
 next=intro001.html
 prev=preface.html
 ~~~~~~
-Introduction
-============
+= Introduction
+
 
 [[GCQYB]]
 
@@ -15,5 +15,3 @@ Introduction
 
 This chapter outlines the goals and the prerequisites for completing
 this tutorial.
-
-

@@ -4,8 +4,8 @@ title=Next Steps
 next=next-steps001.html
 prev=web-application006.html
 ~~~~~~
-Next Steps
-==========
+= Next Steps
+
 
 [[GCRLL]]
 
@@ -16,5 +16,3 @@ Next Steps
 This chapter provides additional resources for learning more about
 enterprise application architecture, the Java EE platform, and GlassFish
 Server.
-
-

@@ -4,8 +4,8 @@ title=Modifying the Enterprise Bean
 next=web-application005.html
 prev=web-application003.html
 ~~~~~~
-Modifying the Enterprise Bean
-=============================
+= Modifying the Enterprise Bean
+
 
 [[GCRLX]]
 
@@ -13,18 +13,18 @@ Modifying the Enterprise Bean
 Modifying the Enterprise Bean
 -----------------------------
 
-`DukesBirthdayBean` is a stateless session bean. Stateless session beans
+`DukesBirthdayBean` is a _stateless session bean_. Stateless session beans
 are enterprise beans that do not maintain a conversational state with a
 client. With stateless session beans, the client makes isolated requests
 that do not depend on any previous state or requests. If an application
-requires conversational state, use stateful session beans.
+requires conversational state, use _stateful session beans_.
 
 `DukesBirthdayBean` is a local enterprise bean that uses a no-interface
 view:
 
-* A local enterprise bean is visible only within the application in
+* A _local enterprise bean_ is visible only within the application in
 which it is deployed.
-* Enterprise beans with a no-interface view do not need a separate
+* Enterprise beans with a _no-interface_ view do not need a separate
 business interface that the enterprise bean class implements. The
 enterprise bean class is the only coding artifact needed to create a
 local, no-interface enterprise bean.
@@ -42,28 +42,28 @@ Add code to a business method to the `DukesBirthdayBean` session bean to
 call the `findAverageAgeDifferenceOfAllFirstcupUsers` named query in
 `FirstcupUser` that returns the average age difference of all users.
 
-1.  Expand the Source Packages node, expand the `firstcup.ejb` node,
+1.  Expand the *Source Packages* node, expand the `firstcup.ejb` node,
 then double-click the `DukesBirthdayBean.java` file to open it in the
 editor window.
 2.  Find the business method called `getAverageAgeDifference` and add
 the following code in bold by copying and pasting:
 +
-[source,oac_no_warn]
+[source,oac_no_warn,subs=+quotes]
 ----
     public Double getAverageAgeDifference() {
-        Double avgAgeDiff = (Double) 
+        *Double avgAgeDiff = (Double)
             em.createNamedQuery("findAverageAgeDifferenceOfAllFirstcupUsers")
                                 .getSingleResult();
         logger.log(Level.INFO, "Average age difference is: {0}",  avgAgeDiff);
-        return avgAgeDiff;
+        return avgAgeDiff;*
     }
 ----
 +
-The named query in `FirstcupUser` is called by using the
-`EntityManager`'s `createNamedQuery` method. Because this query returns
+The named query in `FirstcupUser` is called by using the `createNamedQuery` method
+in `EntityManager`. Because this query returns
 a single number, the `getSingleResult` method is called on the returned
 `Query` object. The query returns a `Double`.
-3.  Right-click in the editor window and select Format.
+3.  Right-click in the editor window and select *Format*.
 
 [[GKGOT]]
 
@@ -77,10 +77,10 @@ years between Duke and the user and creates a new `FirstcupUser` entity.
 1.  Find the `getAgeDifference` business method and add the following
 code in bold:
 +
-[source,oac_no_warn]
+[source,oac_no_warn,subs=+quotes]
 ----
     public int getAgeDifference(Date date) {
-        int ageDifference;
+        *int ageDifference;
 
         Calendar theirBirthday = new GregorianCalendar();
         Calendar dukesBirthday = new GregorianCalendar(1995, Calendar.MAY, 23);
@@ -104,7 +104,7 @@ code in bold:
 
         logger.log(Level.INFO, "Final ageDifference is: {0}",  ageDifference);
 
-        return ageDifference;
+        return ageDifference;*
     }
 ----
 +
@@ -119,11 +119,9 @@ raw difference is more than 0, it subtracts one year from the age
 difference.
 +
 A new `FirstcupUser` entity is created with the user's birthday and age
-difference, then stored in the Java DB database by calling the
-`EntityManager`'s `persist` method.
+difference, then stored in the Java DB database by calling the `persist` method
+in `EntityManager`.
 +
 The final age difference is returned as an `int`.
-2.  Right-click in the editor window and select Format.
-3.  From the File menu, choose Save.
-
-
+2.  Right-click in the editor window and select *Format*.
+3.  From the *File* menu, choose *Save*.

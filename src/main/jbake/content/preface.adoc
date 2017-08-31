@@ -4,8 +4,8 @@ title=Preface
 next=intro.html
 prev=title.html
 ~~~~~~
-Preface
-=======
+= Preface
+
 
 [[GCQYW]]
 
@@ -26,7 +26,7 @@ Audience
 
 This tutorial is intended for novice Java EE developers. You should be
 familiar with the Java programming language, particularly the features
-introduced in Java Platform, Standard Edition 7. While familiarity with
+introduced in Java Platform, Standard Edition 8. While familiarity with
 enterprise development and Java EE technologies is helpful, this
 tutorial assumes you are new to developing Java EE applications.
 
@@ -87,11 +87,11 @@ in this book.
 [width="55%",cols="28%,72%,",options="header",]
 |=======================================================================
 |Convention |Meaning |Example
-|Boldface |Boldface type indicates graphical user interface elements
+|*Boldface* |Boldface type indicates graphical user interface elements
 associated with an action, or terms defined in text. a|
-From the File menu, select New Project.
+From the *File* menu, select *New Project*.
 
-A cache is a copy that is stored locally.
+A *cache* is a copy that is stored locally.
 
 |`Monospace` |Monospace type indicates the names of files and
 directories, commands within a paragraph, URLs, code in examples, text
@@ -102,15 +102,12 @@ Use `ls` `a` to list all files.
 
 `machine_name% you have mail.`
 
-|Italic |Italic type indicates book titles, emphasis, or placeholder
+|_Italic_ |Italic type indicates book titles, emphasis, or placeholder
 variables for which you supply particular values. a|
-The command to remove a file is `rm` filename.
+The command to remove a file is `rm _filename_`.
 
-Read Chapter 6 in the User's Guide.
+Read Chapter 6 in the _User's Guide_.
 
-Do not save the file.
+Do _not_ save the file.
 
 |=======================================================================
-
-
-

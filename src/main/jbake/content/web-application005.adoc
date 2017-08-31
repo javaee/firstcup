@@ -4,8 +4,8 @@ title=Modifying the Web Client
 next=web-application006.html
 prev=web-application004.html
 ~~~~~~
-Modifying the Web Client
-========================
+= Modifying the Web Client
+
 
 [[GCRLT]]
 
@@ -45,30 +45,30 @@ Now modify the `getAge` method of `DukesBDay` to call the `dukes-age`
 web service using the JAX-RS Client API. This will retrieve Duke's
 current age, so it can be compared to the user's age.
 
-1.  Expand the Source Packages node, expand the `firstcup.web` node,
+1.  Expand the *Source Packages* node, expand the `firstcup.web` node,
 then double-click the `DukesBDay.java` file to open it in the editor
 window.
 2.  Find the `getAge` method and implement its functionality by copying
 and pasting the following code in bold:
 +
-[source,oac_no_warn]
+[source,oac_no_warn,subs=+quotes]
 ----
     public int getAge() {
-        try {
+        *try {
             Client client = ClientBuilder.newClient();
-            WebTarget target = 
+            WebTarget target =
             client.target("http://localhost:8080/dukes-age/webapi/dukesAge");
             String response = target.request().get(String.class);
             age = Integer.parseInt(response);
-        } catch (IllegalArgumentException | NullPointerException | 
+        } catch (IllegalArgumentException | NullPointerException |
                  WebApplicationException ex) {
             logger.severe("processing of HTTP response failed");
-        } 
-        return age;
+        }
+        return age;*
     }
 ----
-3.  In the editor window, right-click and select Format.
-4.  From the File menu, select Save.
+3.  In the editor window, right-click and select *Format*.
+4.  From the *File* menu, select *Save*.
 
 [[GCRSA]]
 
@@ -85,16 +85,16 @@ display page.
 1.  Find the `processBirthday` method and implement the functionality by
 copying and pasting the following code in bold:
 +
-[source,oac_no_warn]
+[source,oac_no_warn,subs=+quotes]
 ----
     public String processBirthday() {
-        this.setAgeDiff(dukesBirthdayBean.getAgeDifference(yourBD));
+        *this.setAgeDiff(dukesBirthdayBean.getAgeDifference(yourBD));
         logger.log(Level.INFO, "age diff from dukesbday {0}", ageDiff);
         this.setAbsAgeDiff(Math.abs(this.getAgeDiff()));
         logger.log(Level.INFO, "absAgeDiff {0}", absAgeDiff);
     this.setAverageAgeDifference(dukesBirthdayBean.getAverageAgeDifference());
     logger.log(Level.INFO, "averageAgeDifference {0}", averageAgeDifference);
-        return "/response.xhtml";
+        return "/response.xhtml";*
     }
 ----
 +
@@ -104,8 +104,8 @@ the absolute age difference stored in the `absAgeDiff` property, and
 sets the average age difference stored in the `averageAgeDifference`
 property. It returns the relative URL of the response page to which the
 user will be forwarded.
-2.  In the editor window, right-click and select Format.
-3.  From the File menu, select Save.
+2.  In the editor window, right-click and select *Format*.
+3.  From the *File* menu, select *Save*.
 
 [[GIMVD]]
 
@@ -113,8 +113,8 @@ user will be forwarded.
 Creating the Facelets Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Facelets client consists of a resource library, a composite
-component, and two XHTML files.
+The Facelets client consists of a _resource library_, a _composite
+component_, and two XHTML files.
 
 [[GIMUG]]
 
@@ -124,7 +124,7 @@ Resource Libraries in firstcup-war
 
 A JavaServer Faces resource library is a collection of user-created
 components collected in a standard location in a web application.
-Resource libraries are identified according to a resource identifier, a
+Resource libraries are identified according to a _resource identifier_, a
 string that represents a particular resource within a web application.
 Resources can be packaged either at the root of the web application or
 on the web application's classpath.
@@ -132,26 +132,26 @@ on the web application's classpath.
 A resource packaged in the web application root must be in a
 subdirectory of a `resources` directory at the web application root.
 
-[source,oac_no_warn]
+[source,oac_no_warn,subs=+quotes]
 ----
-resources/resource-identifier
+resources/_resource-identifier_
 ----
 
 A resource packaged in the web application classpath must be in a
 subdirectory of the `META-INF/resources` directory within a web
 application.
 
-[source,oac_no_warn]
+[source,oac_no_warn,subs=+quotes]
 ----
-META-INF/resources/resource-identifier
+META-INF/resources/_resource-identifier_
 ----
 
 Resource identifiers are unique strings that conform to the following
 format:
 
-[source,oac_no_warn]
+[source,oac_no_warn,subs=+quotes]
 ----
-[locale-prefix/][library-name /][library-version/]resource-name [/resource-version]
+[_locale-prefix_/][_library-name_ /][_library-version_/]_resource-name_ [/_resource-version_]
 ----
 
 Elements of the resource identifier in brackets (`[]`) are optional. A
@@ -174,7 +174,7 @@ Facelets components located in a resource. In `firstcup-war`, the
 `inputDate.xhtml` resource, located in the `components` resource
 library, is a composite component that contains tags for reading in a
 date the user enters in a form. Composite components consist of an
-interface definition and an implementation.
+_interface_ definition and an _implementation_.
 
 The interface definition is specified with the `<cc:interface>` tag to
 define which attributes are exposed to pages that use the composite
@@ -230,32 +230,32 @@ Implement the inputDate Composite Component
 Modify the `inputDate` composite component in the `components` resource
 library.
 
-1.  Expand Web Pages, then `resources`, then `components`, and open
+1.  Expand *Web Pages*, then `resources`, then `components`, and open
 `inputDate.xhtml`.
 2.  Add the composite component interface definition between the opening
 and closing `<cc:interface>` tags in `inputDate.xhtml`:
 +
-[source,oac_no_warn]
+[source,oac_no_warn,subs=+quotes]
 ----
     <cc:interface>
-        <cc:attribute name="date" />
+        *<cc:attribute name="date" />*
     </cc:interface>
 ----
 3.  Add the composite component implementation between the opening and
 closing `cc:implementation` tags:
 +
-[source,oac_no_warn]
+[source,oac_no_warn,subs=+quotes]
 ----
     <cc:implementation>
-        <h:inputText id="getdate" value="#{cc.attrs.date}">
+        *<h:inputText id="getdate" value="#{cc.attrs.date}">
             <f:convertDateTime pattern="MM/dd/yyyy" />
         </h:inputText>
         <p/>
-        <h:message for="getdate" style="color:red" />
+        <h:message for="getdate" style="color:red" />*
     </cc:implementation>
 ----
-4.  In the editor window, right-click and select Format.
-5.  From the File menu, select Save.
+4.  In the editor window, right-click and select *Format*.
+5.  From the *File* menu, select *Save*.
 
 [[GIMUM]]
 
@@ -315,13 +315,13 @@ The `greeting.xhtml` file uses the HTML RenderKit and the `components`
 resource library tag libraries. The `components` tag library has a
 prefix of `fc`, and is used to specify the `inputDate` composite
 component in the form below. The
-`<fc:inputDate id="userBirthday" date="#{dukesBDay.yourBD}" />` tag has
+`<fc:inputDate id="userBirthday" date="\#{dukesBDay.yourBD}" />` tag has
 the required `date` attribute, and it stores the value in the `yourBD`
 property in the `DukesBDay` managed bean by using the EL expression
 `#{dukesBDay.yourBD}`.
 
 The localized strings are referenced by the EL expressions
-`#{bundle.``property-name``}`. For example, the
+`\#{bundle.``property-name``}`. For example, the
 `<h:outputText value="#{bundle.Welcome}"/>` tag will display the
 following string in English locales:
 
@@ -414,7 +414,7 @@ Here's the content of the `response.xhtml` file.
             <h:outputText value="#{bundle.Older}"
                           rendered="#{dukesBDay.ageDiff gt 0}"/>
             <p/>
-            <h:outputText 
+            <h:outputText
                 value="#{bundle.AverageAge} #{dukesBDay.averageAgeDifference}."/>
             <p/>
             <h:commandButton id="back" value="#{bundle.Back}" action="greeting"/>
@@ -423,7 +423,7 @@ Here's the content of the `response.xhtml` file.
 </html>
 ----
 
-For example, the `#{bundle.SameAge}` string is displayed if the user and
+For example, the `\#{bundle.SameAge}` string is displayed if the user and
 Duke have the same birthday, as specified by the condition
 `#{dukesBDay.ageDiff == 0}` in the `rendered` attribute. That is, the
 following string is displayed when the `ageDiff` property of `DukesBDay`
@@ -434,7 +434,7 @@ equals `0`:
 You are the same age as Duke!
 ----
 
-The form also contains a `<h:commandButton>` tag that creates a Back
+The form also contains a `<h:commandButton>` tag that creates a *Back*
 button, which directs the user back to the `greeting.xhtml` page, as
 specified in the `action` attribute.
 
@@ -447,7 +447,7 @@ Add the Form to greeting.xhtml
 Add the form that provides the user interface for displaying Duke's age
 and specifying the user's birthday.
 
-1.  In the Projects tab, double-click `greeting.xhtml` in the
+1.  In the *Projects* tab, double-click `greeting.xhtml` in the
 `firstcup-war` project and, in the editor window, replace the text
 between the `<h:form>` and `</h:form>` tags with the following:
 +
@@ -464,11 +464,11 @@ between the `<h:form>` and `</h:form>` tags with the following:
     <h:outputText value="#{bundle.YourBD} "/>
     <fc:inputDate id="userBirthday" date="#{dukesBDay.yourBD}" />
     <p/>
-    <h:commandButton value="#{bundle.Submit}" 
+    <h:commandButton value="#{bundle.Submit}"
                      action="#{dukesBDay.processBirthday}"/>
 ----
-2.  In the editor window, right-click and select Format.
-3.  From the File menu, select Save.
+2.  In the editor window, right-click and select *Format*.
+3.  From the *File* menu, select *Save*.
 
 [[GIMVW]]
 
@@ -480,7 +480,7 @@ Add a form that displays the age difference between Duke and the user,
 displays the average age difference of all users, and allows the user to
 navigate back to `greeting.xhtml`.
 
-1.  In the Projects tab, double-click `response.xhtml` in the
+1.  In the *Projects* tab, double-click `response.xhtml` in the
 `firstcup-war` project and, in the editor window, replace the text
 between the `<h:form>` and `</h:form>` tags with the following:
 +
@@ -503,15 +503,13 @@ between the `<h:form>` and `</h:form>` tags with the following:
                   rendered="#{dukesBDay.ageDiff == 1}"/>
     <h:outputText value=" #{bundle.Years} "
                   rendered="#{dukesBDay.ageDiff gt 1}"/>
-    <h:outputText value="#{bundle.Older}" 
+    <h:outputText value="#{bundle.Older}"
                   rendered="#{dukesBDay.ageDiff gt 0}"/>
     <p/>
-    <h:outputText 
+    <h:outputText
         value="#{bundle.AverageAge} #{dukesBDay.averageAgeDifference}." />
     <p/>
     <h:commandButton id="back" value="#{bundle.Back}" action="greeting"/>
 ----
-2.  In the editor window, right-click and select Format.
-3.  From the File menu, select Save.
-
-
+2.  In the editor window, right-click and select *Format*.
+3.  From the *File* menu, select *Save*.
