@@ -4,8 +4,8 @@ title=Java EE Servers and Containers
 next=creating-example.html
 prev=java-ee001.html
 ~~~~~~
-Java EE Servers and Containers
-==============================
+= Java EE Servers and Containers
+
 
 [[GCRKQ]]
 
@@ -20,7 +20,7 @@ serve application data to clients, much as web servers serve web pages
 to web browsers.
 
 Java EE servers host several application component types that correspond
-to the tiers in a multi-tiered application. The Java EE server provides
+to the tiers in a multitiered application. The Java EE server provides
 services to these components in the form of a container.
 
 Java EE containers are the interface between the component and the
@@ -38,7 +38,7 @@ The Web Container
 
 The web container is the interface between web components and the web
 server. A web component can be a servlet or a JavaServer Faces Facelets
-page. The container manages the component's lifecycle, dispatches
+page. The container manages the component's life cycle, dispatches
 requests to application components, and provides interfaces to context
 data, such as information about the current request.
 
@@ -65,5 +65,3 @@ server components) and the Java EE server. The application client
 container runs on the client machine and is the gateway between the
 client application and the Java EE server components that the client
 uses.
-
-

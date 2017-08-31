@@ -4,8 +4,8 @@ title=Creating Your Second Web Application
 next=web-application001.html
 prev=creating-example002.html
 ~~~~~~
-Creating Your Second Web Application
-====================================
+= Creating Your Second Web Application
+
 
 [[GLCFC]]
 
@@ -28,5 +28,3 @@ Entity]
 * link:web-application005.html#GCRLT[Modifying the Web Client]
 * link:web-application006.html#GCTNX[Building, Packaging, Deploying, and
 Running the firstcup-war Web Application]
-
-

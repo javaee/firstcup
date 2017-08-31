@@ -4,8 +4,8 @@ title=Modifying the Java Persistence API Entity
 next=web-application004.html
 prev=web-application002.html
 ~~~~~~
-Modifying the Java Persistence API Entity
-=========================================
+= Modifying the Java Persistence API Entity
+
 
 [[GJBCS]]
 
@@ -15,10 +15,10 @@ Modifying the Java Persistence API Entity
 
 The Java Persistence API allows you to create and use Java programming
 language classes that represent data in a database table. A Java
-Persistence API entity is a lightweight, persistent Java programming
+Persistence API _entity_ is a lightweight, persistent Java programming
 language object that represents data in a data store. To create or
 modify entities, or to remove them from the data store, call the
-operations of the Java Persistence API entity manager. To query
+operations of the Java Persistence API _entity manager_. To query
 entities, or to query the data encapsulated by the persistent fields or
 properties of a entity, use the Java Persistence Query Language (JPQL),
 a language similar to SQL that operates on entities.
@@ -33,22 +33,22 @@ Edit the Constructor of the FirstcupUser Entity
 
 Add code to the constructor for `FirstcupUser`.
 
-1.  Expand the Source Packages node, expand the `firstcup.entity` node,
+1.  Expand the *Source Packages* node, expand the `firstcup.entity` node,
 then double-click the `FirstcupUser.java` file to open it in the editor
 window.
 2.  Below the field definitions in the `FirstcupUser` class, add the
 following code in bold to the second, two-argument constructor:
 +
-[source,oac_no_warn]
+[source,oac_no_warn,subs=+quotes]
 ----
     public FirstcupUser(Date date, int difference) {
-        Calendar cal = new GregorianCalendar();
+        *Calendar cal = new GregorianCalendar();
         cal.setTime(date);
         birthday = cal;
-        ageDifference = difference;
+        ageDifference = difference;*
     }
 ----
-3.  Right-click in the editor window and select Format.
+3.  Right-click in the editor window and select *Format*.
 
 [[GJBCM]]
 
@@ -75,7 +75,5 @@ query="SELECT AVG(u.ageDifference) FROM FirstcupUser u")
 The `@NamedQuery` annotation appears just before the class definition of
 the entity and has two required attributes: `name`, with the unique name
 for this query; and `query`, the JPQL query definition.
-2.  Right-click in the editor window and select Format.
-3.  From the File menu, select Save.
-
-
+2.  Right-click in the editor window and select *Format*.
+3.  From the *File* menu, select *Save*.

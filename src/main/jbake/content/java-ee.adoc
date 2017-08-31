@@ -4,8 +4,8 @@ title=Understanding Java Platform, Enterprise Edition
 next=java-ee001.html
 prev=intro002.html
 ~~~~~~
-Understanding Java Platform, Enterprise Edition
-===============================================
+= Understanding Java Platform, Enterprise Edition
+
 
 [[GCRLO]]
 
@@ -16,5 +16,3 @@ Understanding Java Platform, Enterprise Edition
 This chapter describes the basic concepts behind enterprise application
 development and examines how an application server is the sum of its
 Java EE containers.
-
-

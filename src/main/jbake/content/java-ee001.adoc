@@ -4,8 +4,8 @@ title=Overview of Enterprise Applications
 next=java-ee002.html
 prev=java-ee.html
 ~~~~~~
-Overview of Enterprise Applications
-===================================
+= Overview of Enterprise Applications
+
 
 [[GCRKY]]
 
@@ -17,9 +17,9 @@ This section describes enterprise applications and how they are designed
 and developed.
 
 As stated above, the Java EE platform is designed to help developers
-create large-scale, multi-tiered, scalable, reliable, and secure network
-applications. A shorthand name for such applications is "enterprise
-applications," so called because these applications are designed to
+create large-scale, multitiered, scalable, reliable, and secure network
+applications. A shorthand name for such applications is *enterprise
+applications*, so called because these applications are designed to
 solve the problems encountered by large enterprises. Enterprise
 applications are not only useful for large corporations, agencies, and
 governments, however. The benefits of an enterprise application are
@@ -38,14 +38,14 @@ developers to concentrate on functionality.
 Tiered Applications
 ~~~~~~~~~~~~~~~~~~~
 
-In a multi-tiered application, the functionality of the application is
+In a multitiered application, the functionality of the application is
 separated into isolated functional areas, called tiers. Typically,
-multi-tiered applications have a client tier, a middle tier, and a data
+multitiered applications have a client tier, a middle tier, and a data
 tier (often called the enterprise information systems tier). The client
 tier consists of a client program that makes requests to the middle
 tier. The middle tier is divided into a web tier and a business tier,
 which handle client requests and process application data, storing it in
-a permanent datastore in the data tier.
+a permanent data store in the data tier.
 
 Java EE application development concentrates on the middle tier to make
 enterprise application management easier, more robust, and more secure.
@@ -61,7 +61,7 @@ server and that are usually located on a different machine from the
 server. The clients make requests to the server. The server processes
 the requests and returns a response back to the client. Many different
 types of applications can be Java EE clients, and they are not always,
-or even often Java applications. Clients can be a web browser, a
+or even often, Java applications. Clients can be a web browser, a
 standalone application, or other servers, and they run on a different
 machine from the Java EE server.
 
@@ -92,7 +92,7 @@ Table 2-1 Web-Tier Java EE Technologies
 [width="44%",cols="100%,",options="header",]
 |=======================================================================
 |Technology |Purpose
-|JavaServer Faces technology |A user-interface component framework for
+|JavaServer Faces technology |A user interface component framework for
 web applications that allows you to include UI components (such as
 fields and buttons) on a XHTML page, called a Facelets page; convert and
 validate UI component data; save UI component data to server-side data
@@ -148,5 +148,3 @@ Java EE applications:
 * The Java Persistence API
 * The Java EE Connector Architecture
 * The Java Transaction API (JTA)
-
-

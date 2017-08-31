@@ -4,8 +4,8 @@ title=Architecture of the Example Applications
 next=creating-example002.html
 prev=creating-example.html
 ~~~~~~
-Architecture of the Example Applications
-========================================
+= Architecture of the Example Applications
+
 
 [[GKHQT]]
 
@@ -35,7 +35,7 @@ stores the user-submitted data in a Java Persistence API entity.
 
 `FirstcupUser` is a Java Persistence API entity that represents a
 particular user's birthday. It is stored in a Java DB database table and
-managed by `DukesBirthdayBean`'s business methods.
+managed by the `DukesBirthdayBean` business methods.
 
 The `firstcup-war` web application is a JavaServer Faces Facelets
 application that accesses `DukesAgeResource` to display Duke's age,
@@ -100,5 +100,3 @@ CDI managed bean uses the JAX-RS client API to access the
 `DukesAgeResource` web service. The `firstcup-war` web client is a
 JavaServer Faces application that runs in the web container of the Java
 EE server.
-
-

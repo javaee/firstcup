@@ -4,8 +4,8 @@ title=Java Platform, Enterprise Edition Your First Cup: An Introduction to the J
 next=preface.html
 prev=toc.html
 ~~~~~~
-Java Platform, Enterprise Edition Your First Cup: An Introduction to the Java EE Platform, Release 8
-====================================================================================================
+= Java Platform, Enterprise Edition Your First Cup: An Introduction to the Java EE Platform, Release 8
+
 
 [[java-platform-enterprise-edition]]
 Java Platform, Enterprise Edition
@@ -30,7 +30,7 @@ E61718-01
 
 Copyright © 2017 Oracle and/or its affiliates. All rights reserved.
 
-Primary Author:  
+Primary Author: Ian Evans
 
 This software and related documentation are provided under a license
 agreement containing restrictions on use and disclosure and are
@@ -90,5 +90,3 @@ and its affiliates will not be responsible for any loss, costs, or
 damages incurred due to your access to or use of third-party content,
 products, or services, except as set forth in an applicable agreement
 between you and Oracle.
-
-
