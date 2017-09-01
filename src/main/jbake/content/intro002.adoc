@@ -16,11 +16,11 @@ Prerequisite Tasks for Completing This Tutorial
 To complete this tutorial, you need to complete the following tasks
 first:
 
-* link:#first-cup-8-java-ee-8-software-compatibility[See the software compatibility notice]
-* link:#GCRNX[Get the Java EE 8 SDK]
-* link:#GCRNU[Install the NetBeans IDE distribution for Java EE]
-* link:#GIOEW[Add GlassFish Server as a server in NetBeans IDE]
-* link:#GIMVN[Get the latest updates to this tutorial]
+* link:#software-compatibility[See the software compatibility notice]
+* link:#get-the-java-ee-8-sdk[Get the Java EE 8 SDK]
+* link:#install-the-netbeans-ide-distribution-for-java-ee[Install the NetBeans IDE distribution for Java EE]
+* link:#add-glassfish-server-as-a-server-in-netbeans-ide[Add GlassFish Server as a server in NetBeans IDE]
+* link:#get-the-latest-updates-to-this-tutorial[Get the latest updates to this tutorial]
 
 [[software-compatibility]]
 Software Compatibility Notice
@@ -28,12 +28,12 @@ Software Compatibility Notice
 
 This tutorial is compatible with the following software:
 
-[width="55%",cols="40%,60%",options="header",]
+[width="55%",cols="40%,60%",valign="left", options="header"]
 |=======================================================================
 |Software |Version
-|Java Development Kit (JDK) | 8 update 131 or greater
+|link:http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html[Java Development Kit (JDK)] | 8 update 144 (8u144) or greater
 |GlassFish Server | 5.0 or greater
-|NetBeans IDE | 8.2 or greater
+|link:https://netbeans.org/downloads/[NetBeans IDE] | 8.2 or greater
 
 |=======================================================================
 
