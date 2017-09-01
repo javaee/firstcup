@@ -16,15 +16,26 @@ Prerequisite Tasks for Completing This Tutorial
 To complete this tutorial, you need to complete the following tasks
 first:
 
+* link:#first-cup-8-java-ee-8-software-compatibility[See the software compatibility notice]
 * link:#GCRNX[Get the Java EE 8 SDK]
-* link:#GCRNU[Install the NetBeans IDE Distribution for Java EE]
-* link:#GIOEW[Add GlassFish Server as a Server in NetBeans IDE]
-* link:#GIMVN[Get the Latest Updates to this Tutorial]
+* link:#GCRNU[Install the NetBeans IDE distribution for Java EE]
+* link:#GIOEW[Add GlassFish Server as a server in NetBeans IDE]
+* link:#GIMVN[Get the latest updates to this tutorial]
 
-For up-to-the-minute information on which versions of the required
-software are compatible with this tutorial, see the First Cup
-compatibility page
-(`http://java.net/projects/firstcup/pages/FirstCupCompatibility`).
+[[software-compatibility]]
+Software Compatibility Notice
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This tutorial is compatible with the following software:
+
+[width="55%",cols="40%,60%",options="header",]
+|=======================================================================
+|Software |Version
+|Java Development Kit (JDK) | 8 update 131 or greater
+|GlassFish Server | 5.0 or greater
+|NetBeans IDE | 8.2 or greater
+
+|=======================================================================
 
 [[GCRNX]]
 
