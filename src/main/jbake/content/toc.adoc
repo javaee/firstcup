@@ -32,7 +32,9 @@ link:intro.html#GCQYB[1 Introduction]
 * link:intro002.html#GCQZL[Prerequisite Tasks for Completing This
 Tutorial]
 
-** link:intro002.html#GCRNX[Get the Java EE 7 SDK]
+** link:intro002.html#software-compatibility[Software Compatibility Notice]
+
+** link:intro002.html#GCRNX[Get the Java EE 8 SDK]
 
 ** link:intro002.html#GCRNU[Install the NetBeans IDE Distribution for
 Java EE]
@@ -142,5 +144,3 @@ link:next-steps.html#GCRLL[5 Next Steps]
 
 * link:next-steps001.html#GCRLH[The Java EE Tutorial]
 * link:next-steps002.html#GKHRA[More Information on the Java EE Platform]
-
-
