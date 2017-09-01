@@ -31,9 +31,10 @@ This tutorial is compatible with the following software:
 [width="55%",cols="40%,60%",valign="left", options="header"]
 |=======================================================================
 |Software |Version
-|link:http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html[Java Development Kit (JDK)] | 8 update 144 (8u144) or greater
-|GlassFish Server | 5.0 or greater
-|link:https://netbeans.org/downloads/[NetBeans IDE] | 8.2 or greater
+|link:http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java Development Kit (JDK)] | 8 update 144 (8u144) or greater
+|link:https://javaee.github.io/glassfish/[GlassFish Server] | 5.0 or greater
+|link:https://netbeans.org/[NetBeans IDE] | 8.2 or greater
+|link:https://eclipse.org/ide/[Eclipse IDE] | 4.7.0 or greater
 
 |=======================================================================
 
