@@ -89,9 +89,9 @@ are used in the web tier in Java EE applications.
 
 Table 2-1 Web-Tier Java EE Technologies
 
-[width="44%",cols="100%,",options="header",]
+[width="80%",cols="25%,74%"]
 |=======================================================================
-|Technology |Purpose
+|*Technology* |*Purpose*
 |JavaServer Faces technology |A user interface component framework for
 web applications that allows you to include UI components (such as
 fields and buttons) on a XHTML page, called a Facelets page; convert and

@@ -84,9 +84,9 @@ Conventions
 The following table describes the typographic conventions that are used
 in this book.
 
-[width="55%",cols="28%,72%,",options="header",]
+[width="75%",cols="20%,39%,39%"]
 |=======================================================================
-|Convention |Meaning |Example
+|*Convention* |*Meaning* |*Example*
 |*Boldface* |Boldface type indicates graphical user interface elements
 associated with an action, or terms defined in text. a|
 From the *File* menu, select *New Project*.
@@ -98,9 +98,9 @@ directories, commands within a paragraph, URLs, code in examples, text
 that appears on the screen, or text that you enter. a|
 Edit your `.login` file.
 
-Use `ls` `a` to list all files.
+Use `ls -a` to list all files.
 
-`machine_name% you have mail.`
+`_machine_name_% you have mail.`
 
 |_Italic_ |Italic type indicates book titles, emphasis, or placeholder
 variables for which you supply particular values. a|
