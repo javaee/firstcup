@@ -350,10 +350,10 @@ language conditional operators to allow XML parsing of the XHTML file.
 
 Table 4-1 Conditional Operator EL Language Alternatives
 
-[width="49%",cols="45%,,55%",options="header",]
+[width="60%",cols="25%,40%,35%"]
 |=======================================================================
-|Logical Condition |Java Programming Language Conditional Operator |EL
-Alternative
+|*Logical Condition* |*Java Programming Language Conditional Operator* |*EL
+Alternative*
 |AND a|
 `&&`
 
