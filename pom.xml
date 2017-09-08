@@ -63,12 +63,6 @@
       <developerConnection>scm:git:git@github.com:javaee/firstcup.git</developerConnection>
       <url>https://github.com/javaee/firstcup</url>
     </scm>
-    <distributionManagement>
-        <site>
-            <url>scm:git:git@github.com:javaee/firstcup.git</url>
-        </site>
-    </distributionManagement>
-
     <build>
         <defaultGoal>package</defaultGoal>
         <plugins>
