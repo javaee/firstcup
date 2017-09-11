@@ -21,7 +21,7 @@ is used in the {{site.title}}.
 EE features that are used to develop enterprise applications. This tutorial is also included in the Java EE 8 SDK.
 
 * [javaee/tutorial-examples](https://github.com/javaee/tutorial-examples): this repository contains the example code that
-is used in the Java EE tutorial.
+is used in the Java EE Tutorial.
 
 * [GlassFish Samples](https://github.com/javaee/glassfish-samples): this repository contains the sample applications
 that are delivered with the Java EE 8 SDK.
