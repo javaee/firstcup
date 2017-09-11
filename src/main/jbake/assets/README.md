@@ -4,7 +4,7 @@ The {{site.title}} Project is the official site for the _Java Platform, Enterpri
 Your First Cup: An Introduction to the Java EE Platform_ tutorial that is delivered with the Java EE 8 SDK. The
 {{site.title}} teaches and demonstrates Java EE basics and is intended for beginners.
 
-[View the First Cup Tutorial](toc.html)
+[View the First Cup of Java EE Tutorial](toc.html)
 
 
 The latest build of the {{site.title}} is automatically published to this site as HTML. The tutorial is authored in
