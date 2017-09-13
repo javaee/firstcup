@@ -9,7 +9,7 @@ Once your OCA has been approved, you'll be able to work directly with the respec
 reviewers to get your Pull Request reviewed and approved. The OCA process doesn't apply to Oracle employees.
 
 ## One Time Setup
-* [Fork](https://help.github.com/articles/fork-a-repo/) the [tutorial](https://github.com/javaee/firstcup/) repository.
+* [Fork](https://help.github.com/articles/fork-a-repo/) the [firstcup](https://github.com/javaee/firstcup/) repository.
 * [Clone](https://help.github.com/articles/cloning-a-repository/) your forked repository.
 ```
 $ git clone https://github.com/javaee/firstcup.git
