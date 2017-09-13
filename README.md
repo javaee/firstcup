@@ -17,9 +17,9 @@ feedback and review comments. All issues will be addressed as soon as possible.
 The First Cup Tutorial project is also open for contributions and your help is greatly appreciated. If you have an idea
 for the tutorial and want to add a section or update an existing section, then review the following links:
 
-* [Contribute](https://javaee.github.io/firstcup/CONTRIBUTING)
-* [Pull Request Acceptance Workflow](https://javaee.github.io/firstcup/pr_doc_workflow)
-* [License](https://javaee.github.io/firstcup/LICENSE)
+* [Contribute](CONTRIBUTING.md)
+* [Pull Request Acceptance Workflow](pr_doc_workflow.md)
+* [License](LICENSE.md)
 
 ## Building the First Cup Tutorial
 
