@@ -20,7 +20,9 @@ first:
 * link:#get-the-java-ee-8-sdk[Get the Java EE 8 SDK]
 * link:#install-the-netbeans-ide-distribution-for-java-ee[Install the NetBeans IDE distribution for Java EE]
 * link:#add-glassfish-server-as-a-server-in-netbeans-ide[Add GlassFish Server as a server in NetBeans IDE]
+////
 * link:#get-the-latest-updates-to-this-tutorial[Get the latest updates to this tutorial]
+////
 
 [[software-compatibility]]
 Software Compatibility Notice
@@ -83,6 +85,7 @@ GlassFish Server installation.
 6.  Under *Domain Location*, select the default domain, `domain1`.
 7.  Click *Finish*.
 
+////
 [[GIMVN]]
 
 [[get-the-latest-updates-to-this-tutorial]]
@@ -102,3 +105,4 @@ packages.
 (`javaee-firstcup-tutorial`) package.
 5.  If there is an updated version, select First Cup for Java EE 8
 (`javaee-firstcup-tutorial`) and click *Install*.
+////
