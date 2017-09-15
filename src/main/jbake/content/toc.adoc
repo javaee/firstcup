@@ -7,8 +7,8 @@ Java Platform, Enterprise Edition Your First Cup: An Introduction to the Java EE
 ======================================================================================================================================
 
 [[contents]]
-Contents
---------
+= Contents
+
 
 [[title-and-copyright-information]]
 link:title.html[Title and Copyright Information]
@@ -42,7 +42,9 @@ Java EE]
 ** link:intro002.html#GIOEW[Add GlassFish Server as a Server in NetBeans
 IDE]
 
+////
 ** link:intro002.html#GIMVN[Get the Latest Updates to this Tutorial]
+////
 
 [[understanding-java-platform-enterprise-edition]]
 link:java-ee.html#GCRLO[2 Understanding Java Platform, Enterprise Edition]
