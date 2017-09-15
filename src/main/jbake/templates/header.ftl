@@ -13,9 +13,8 @@
   <tr>
   <td align="left" valign="top">
   <b>Java Platform, Enterprise Edition (Java EE) 8</b><br />
-  <b>Your First Cup: An Introduction to the Java EE Platform</b><br />
-  E61718-01<br />
-      <p class="beta">Beta Draft (Pre-General Availability)</p>
+  <b>Your First Cup: An Introduction to the Java EE Platform</b>
+      <!-- <p class="beta">Beta Draft (Pre-General Availability)</p> -->
   </td>
   </tr>
 </table>
