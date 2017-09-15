@@ -14,6 +14,6 @@ More Information on the Java EE Platform
 
 For more information on the Java EE platform, see these resources:
 
-* The GlassFish project (`http://glassfish.java.net/`)
+* The GlassFish project (`https://javaee.github.io/glassfish/`)
 * The Aquarium (`http://blogs.oracle.com/theaquarium/`), a blog about
 GlassFish Server and open-source Java EE projects
