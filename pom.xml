@@ -50,7 +50,7 @@
     <groupId>org.glassfish.docs</groupId>
     <artifactId>firstcup</artifactId>
     <packaging>pom</packaging>
-    <version>8.1</version>
+    <version>8.2-SNAPSHOT</version>
     <name>First Cup of Java EE Tutorial</name>
 
     <properties>
@@ -61,7 +61,7 @@
       <connection>scm:git:git@github.com:javaee/firstcup.git</connection>
       <developerConnection>scm:git:git@github.com:javaee/firstcup.git</developerConnection>
       <url>https://github.com/javaee/firstcup</url>
-      <tag>firstcup-8.1</tag>
+      <tag>HEAD</tag>
   </scm>
     <distributionManagement>
         <site>
