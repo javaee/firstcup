@@ -193,8 +193,7 @@ return "" + dukesAge;
 Starting GlassFish Server and the Database Server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Follow these steps to start GlassFish Server and the Java DB database
-server.
+Follow these steps to start GlassFish Server and Apache Derby.
 
 1.  Click the *Services* tab.
 2.  Expand *Servers*.
