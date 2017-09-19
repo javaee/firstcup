@@ -34,7 +34,7 @@ that calculates the difference between the user's age and Duke's age and
 stores the user-submitted data in a Java Persistence API entity.
 
 `FirstcupUser` is a Java Persistence API entity that represents a
-particular user's birthday. It is stored in a Java DB database table and
+particular user's birthday. It is stored in an Apache Derby table and
 managed by the `DukesBirthdayBean` business methods.
 
 The `firstcup-war` web application is a JavaServer Faces Facelets
@@ -83,7 +83,7 @@ The example applications have a web tier component (the `firstcup-war`
 web client), three business tier components (the `DukesAgeResource` web
 service, the `FirstcupUser` entity, and the `DukesBirthdayBean`
 enterprise bean), and an enterprise information system (EIS) tier (the
-data in the Java DB database table). The user's web browser is the
+data in the Apache Derby database table). The user's web browser is the
 client tier component, as it accesses the rest of the application
 through the web tier.
 

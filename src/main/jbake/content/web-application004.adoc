@@ -119,7 +119,7 @@ raw difference is more than 0, it subtracts one year from the age
 difference.
 +
 A new `FirstcupUser` entity is created with the user's birthday and age
-difference, then stored in the Java DB database by calling the `persist` method
+difference, then stored in Derby by calling the `persist` method
 in `EntityManager`.
 +
 The final age difference is returned as an `int`.
