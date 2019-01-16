@@ -7,9 +7,8 @@ prev=creating-example.html
 = Architecture of the Example Applications
 
 
-[[GKHQT]]
+[[GKHQT]][[architecture-of-the-example-applications]]
 
-[[architecture-of-the-example-applications]]
 Architecture of the Example Applications
 ----------------------------------------
 
@@ -73,9 +72,8 @@ packaged within the `firstcup-war` application. `DukesBirthdayBean`
 calculates the difference between the user's birthday and Duke's
 birthday.
 
-[[GCRLR]]
+[[GCRLR]][[tiers-in-the-example-applications]]
 
-[[tiers-in-the-example-applications]]
 Tiers in the Example Applications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -87,9 +85,8 @@ data in the Apache Derby database table). The user's web browser is the
 client tier component, as it accesses the rest of the application
 through the web tier.
 
-[[GCRLU]]
+[[GCRLU]][[java-ee-technologies-used-in-the-example-applications]]
 
-[[java-ee-technologies-used-in-the-example-applications]]
 Java EE Technologies Used in the Example Applications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

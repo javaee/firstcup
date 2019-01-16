@@ -7,18 +7,16 @@ prev=web-application005.html
 = Building, Packaging, Deploying, and Running the firstcup-war Web Application
 
 
-[[GCTNX]]
+[[GCTNX]][[building-packaging-deploying-and-running-the-firstcup-war-web-application]]
 
-[[building-packaging-deploying-and-running-the-firstcup-war-web-application]]
 Building, Packaging, Deploying, and Running the firstcup-war Web Application
 ----------------------------------------------------------------------------
 
 In this section, you will build the `firstcup-war` web application,
 deploy it to the server, and run the application.
 
-[[GCTOJ]]
+[[GCTOJ]][[build-package-and-deploy-the-firstcup-war-web-application]]
 
-[[build-package-and-deploy-the-firstcup-war-web-application]]
 Build, Package, and Deploy the firstcup-war Web Application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -32,9 +30,8 @@ file, `firstcup-war.war`, then deploy it to the server.
 After `firstcup-war.war` deploys successfully to GlassFish Server, a web
 browser will load the application URL.
 
-[[GCTQC]]
+[[GCTQC]][[run-the-firstcup-war-application]]
 
-[[run-the-firstcup-war-application]]
 Run the firstcup-war Application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

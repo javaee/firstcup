@@ -7,9 +7,8 @@ prev=web-application002.html
 = Modifying the Java Persistence API Entity
 
 
-[[GJBCS]]
+[[GJBCS]][[modifying-the-java-persistence-api-entity]]
 
-[[modifying-the-java-persistence-api-entity]]
 Modifying the Java Persistence API Entity
 -----------------------------------------
 
@@ -25,9 +24,8 @@ a language similar to SQL that operates on entities.
 
 In `firstcup-war`, there is a single entity that defines one query.
 
-[[GKKNN]]
+[[GKKNN]][[edit-the-constructor-of-the-firstcupuser-entity]]
 
-[[edit-the-constructor-of-the-firstcupuser-entity]]
 Edit the Constructor of the FirstcupUser Entity
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -50,9 +48,8 @@ following code in bold to the second, two-argument constructor:
 ----
 3.  Right-click in the editor window and select *Format*.
 
-[[GJBCM]]
+[[GJBCM]][[add-a-named-query-to-the-firstcupuser-entity]]
 
-[[add-a-named-query-to-the-firstcupuser-entity]]
 Add a Named Query to the FirstcupUser Entity
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

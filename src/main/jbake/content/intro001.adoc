@@ -7,9 +7,8 @@ prev=intro.html
 = Goals of This Tutorial
 
 
-[[GCQYJ]]
+[[GCQYJ]][[goals-of-this-tutorial]]
 
-[[goals-of-this-tutorial]]
 Goals of This Tutorial
 ----------------------
 

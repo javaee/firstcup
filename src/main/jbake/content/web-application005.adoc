@@ -7,9 +7,8 @@ prev=web-application004.html
 = Modifying the Web Client
 
 
-[[GCRLT]]
+[[GCRLT]][[modifying-the-web-client]]
 
-[[modifying-the-web-client]]
 Modifying the Web Client
 ------------------------
 
@@ -19,9 +18,8 @@ the following tasks:
 * Modify the `DukesBDay` managed bean class
 * Modify the Facelets pages
 
-[[GCRQX]]
+[[GCRQX]][[modify-the-dukesbday-managed-bean-class]]
 
-[[modify-the-dukesbday-managed-bean-class]]
 Modify the DukesBDay Managed Bean Class
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -35,9 +33,8 @@ describes more about managed beans and how to configure them.
 
 This section describes how to modify the `DukesBDay` class.
 
-[[sthref10]]
+[[sthref10]][[call-the-dukes-age-web-service-to-retrieve-dukes-current-age]]
 
-[[call-the-dukes-age-web-service-to-retrieve-dukes-current-age]]
 Call the dukes-age Web Service to Retrieve Duke's Current Age
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -70,9 +67,8 @@ and pasting the following code in bold:
 3.  In the editor window, right-click and select *Format*.
 4.  From the *File* menu, select *Save*.
 
-[[GCRSA]]
+[[GCRSA]][[get-the-age-difference-from-the-dukesbirthdaybean-enterprise-bean]]
 
-[[get-the-age-difference-from-the-dukesbirthdaybean-enterprise-bean]]
 Get the Age Difference from the DukesBirthdayBean Enterprise Bean
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -107,18 +103,16 @@ user will be forwarded.
 2.  In the editor window, right-click and select *Format*.
 3.  From the *File* menu, select *Save*.
 
-[[GIMVD]]
+[[GIMVD]][[creating-the-facelets-client]]
 
-[[creating-the-facelets-client]]
 Creating the Facelets Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Facelets client consists of a _resource library_, a _composite
 component_, and two XHTML files.
 
-[[GIMUG]]
+[[GIMUG]][[resource-libraries-in-firstcup-war]]
 
-[[resource-libraries-in-firstcup-war]]
 Resource Libraries in firstcup-war
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -163,9 +157,8 @@ resource identifier for this resource is therefore
 `components/inputDate.xhtml`, and it is located in the web application
 root at `resources/components/inputDate.xhtml`.
 
-[[GIMTW]]
+[[GIMTW]][[the-inputdate-composite-component]]
 
-[[the-inputdate-composite-component]]
 The inputDate Composite Component
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -221,9 +214,8 @@ form submission is unsuccessful, and a warning message is displayed. The
 message output is specified by the `<h:message>` tag, which is connected
 to the `inputText` component that has the id `getdate`.
 
-[[GIMWV]]
+[[GIMWV]][[implement-the-inputdate-composite-component]]
 
-[[implement-the-inputdate-composite-component]]
 Implement the inputDate Composite Component
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -257,9 +249,8 @@ closing `cc:implementation` tags:
 4.  In the editor window, right-click and select *Format*.
 5.  From the *File* menu, select *Save*.
 
-[[GIMUM]]
+[[GIMUM]][[the-facelets-web-interface]]
 
-[[the-facelets-web-interface]]
 The Facelets Web Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -438,9 +429,8 @@ The form also contains a `<h:commandButton>` tag that creates a *Back*
 button, which directs the user back to the `greeting.xhtml` page, as
 specified in the `action` attribute.
 
-[[GIMTA]]
+[[GIMTA]][[add-the-form-to-greeting.xhtml]]
 
-[[add-the-form-to-greeting.xhtml]]
 Add the Form to greeting.xhtml
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -470,9 +460,8 @@ between the `<h:form>` and `</h:form>` tags with the following:
 2.  In the editor window, right-click and select *Format*.
 3.  From the *File* menu, select *Save*.
 
-[[GIMVW]]
+[[GIMVW]][[add-the-form-to-response.html]]
 
-[[add-the-form-to-response.html]]
 Add the Form to response.html
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

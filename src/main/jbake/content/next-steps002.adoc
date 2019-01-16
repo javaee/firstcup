@@ -6,9 +6,8 @@ prev=next-steps001.html
 = More Information on the Java EE Platform
 
 
-[[GKHRA]]
+[[GKHRA]][[more-information-on-the-java-ee-platform]]
 
-[[more-information-on-the-java-ee-platform]]
 More Information on the Java EE Platform
 ----------------------------------------
 

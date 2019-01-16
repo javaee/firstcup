@@ -25,7 +25,7 @@ Java Platform, Enterprise Edition Your First Cup: An Introduction to the
 Java EE Platform, Release 8
 
 
-Copyright © 2017 Oracle and/or its affiliates. All rights reserved.
+Copyright © 2017, 2019 Oracle and/or its affiliates. All rights reserved.
 
 This software and related documentation are provided under a license
 agreement containing restrictions on use and disclosure and are

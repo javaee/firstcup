@@ -7,9 +7,8 @@ prev=web-application003.html
 = Modifying the Enterprise Bean
 
 
-[[GCRLX]]
+[[GCRLX]][[modifying-the-enterprise-bean]]
 
-[[modifying-the-enterprise-bean]]
 Modifying the Enterprise Bean
 -----------------------------
 
@@ -32,9 +31,8 @@ local, no-interface enterprise bean.
 `DukesBirthdayBean` will be packaged within the same WAR file as the
 Facelets web front end.
 
-[[GJBCU]]
+[[GJBCU]][[implement-a-business-method-to-dukesbirthdaybean-that-gets-the-average-age-difference-of-firstcup-war-users]]
 
-[[implement-a-business-method-to-dukesbirthdaybean-that-gets-the-average-age-difference-of-firstcup-war-users]]
 Implement a Business Method to DukesBirthdayBean that Gets the Average Age Difference of firstcup-war Users
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -65,9 +63,8 @@ a single number, the `getSingleResult` method is called on the returned
 `Query` object. The query returns a `Double`.
 3.  Right-click in the editor window and select *Format*.
 
-[[GKGOT]]
+[[GKGOT]][[implement-a-business-method-for-calculating-the-age-difference-between-duke-and-the-user]]
 
-[[implement-a-business-method-for-calculating-the-age-difference-between-duke-and-the-user]]
 Implement a Business Method for Calculating the Age Difference Between Duke and the User
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

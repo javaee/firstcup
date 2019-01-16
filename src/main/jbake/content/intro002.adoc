@@ -7,9 +7,8 @@ prev=intro001.html
 = Prerequisite Tasks for Completing This Tutorial
 
 
-[[GCQZL]]
+[[GCQZL]][[prerequisite-tasks-for-completing-this-tutorial]]
 
-[[prerequisite-tasks-for-completing-this-tutorial]]
 Prerequisite Tasks for Completing This Tutorial
 -----------------------------------------------
 
@@ -25,6 +24,7 @@ first:
 ////
 
 [[software-compatibility]]
+
 Software Compatibility Notice
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -40,9 +40,8 @@ This tutorial is compatible with the following software:
 
 |=======================================================================
 
-[[GCRNX]]
+[[GCRNX]][[get-the-java-ee-8-sdk]]
 
-[[get-the-java-ee-8-sdk]]
 Get the Java EE 8 SDK
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -54,18 +53,16 @@ install the SDK. The location where you install it is typically
 The tutorial is installed in the `docs/firstcup` directory of your SDK
 installation.
 
-[[GCRNU]]
+[[GCRNU]][[install-the-netbeans-ide-distribution-for-java-ee]]
 
-[[install-the-netbeans-ide-distribution-for-java-ee]]
 Install the NetBeans IDE Distribution for Java EE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To get NetBeans IDE, go to `https://netbeans.org/downloads/` and
 download the Java EE distribution. Install this distribution.
 
-[[GIOEW]]
+[[GIOEW]][[add-glassfish-server-as-a-server-in-netbeans-ide]]
 
-[[add-glassfish-server-as-a-server-in-netbeans-ide]]
 Add GlassFish Server as a Server in NetBeans IDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -86,9 +83,8 @@ GlassFish Server installation.
 7.  Click *Finish*.
 
 ////
-[[GIMVN]]
+[[GIMVN]][[get-the-latest-updates-to-this-tutorial]]
 
-[[get-the-latest-updates-to-this-tutorial]]
 Get the Latest Updates to this Tutorial
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

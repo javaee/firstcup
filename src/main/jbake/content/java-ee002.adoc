@@ -7,9 +7,8 @@ prev=java-ee001.html
 = Java EE Servers and Containers
 
 
-[[GCRKQ]]
+[[GCRKQ]][[java-ee-servers-and-containers]]
 
-[[java-ee-servers-and-containers]]
 Java EE Servers and Containers
 ------------------------------
 
@@ -30,9 +29,8 @@ and is different for each component type. Nonetheless, the server allows
 the different component types to work together to provide functionality
 in an enterprise application.
 
-[[GCRMB]]
+[[GCRMB]][[the-web-container]]
 
-[[the-web-container]]
 The Web Container
 ~~~~~~~~~~~~~~~~~
 
@@ -42,9 +40,8 @@ page. The container manages the component's life cycle, dispatches
 requests to application components, and provides interfaces to context
 data, such as information about the current request.
 
-[[GCRMA]]
+[[GCRMA]][[the-ejb-container]]
 
-[[the-ejb-container]]
 The EJB Container
 ~~~~~~~~~~~~~~~~~
 
@@ -53,9 +50,8 @@ provide the business logic in a Java EE application, and the Java EE
 server. The EJB container runs on the Java EE server and manages the
 execution of an application's enterprise beans.
 
-[[GCRLJ]]
+[[GCRLJ]][[the-application-client-container]]
 
-[[the-application-client-container]]
 The Application Client Container
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

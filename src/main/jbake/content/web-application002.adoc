@@ -7,9 +7,8 @@ prev=web-application001.html
 = Creating the Web Application Project Using the Archetype
 
 
-[[GIMNT]]
+[[GIMNT]][[creating-the-web-application-project-using-the-archetype]]
 
-[[creating-the-web-application-project-using-the-archetype]]
 Creating the Web Application Project Using the Archetype
 --------------------------------------------------------
 

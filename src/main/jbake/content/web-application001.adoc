@@ -7,9 +7,8 @@ prev=web-application.html
 = The firstcup-war Project
 
 
-[[GJBCA]]
+[[GJBCA]][[the-firstcup-war-project]]
 
-[[the-firstcup-war-project]]
 The firstcup-war Project
 ------------------------
 

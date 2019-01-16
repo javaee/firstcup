@@ -7,9 +7,8 @@ prev=creating-example002.html
 = Creating Your Second Web Application
 
 
-[[GLCFC]]
+[[GLCFC]][[creating-your-second-web-application]]
 
-[[creating-your-second-web-application]]
 4 Creating Your Second Web Application
 --------------------------------------
 

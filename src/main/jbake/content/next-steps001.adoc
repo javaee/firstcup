@@ -7,9 +7,8 @@ prev=next-steps.html
 = The Java EE Tutorial
 
 
-[[GCRLH]]
+[[GCRLH]][[the-java-ee-tutorial]]
 
-[[the-java-ee-tutorial]]
 The Java EE Tutorial
 --------------------
 

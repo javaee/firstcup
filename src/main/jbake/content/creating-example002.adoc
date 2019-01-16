@@ -7,18 +7,16 @@ prev=creating-example001.html
 = Coding the dukes-age Example Application
 
 
-[[GCRKM]]
+[[GCRKM]][[coding-the-dukes-age-example-application]]
 
-[[coding-the-dukes-age-example-application]]
 Coding the dukes-age Example Application
 ----------------------------------------
 
 This section describes how to code the `dukes-age` example application,
 a web application containing a JAX-RS RESTful web service endpoint.
 
-[[GCSKG]]
+[[GCSKG]][[getting-started]]
 
-[[getting-started]]
 Getting Started
 ~~~~~~~~~~~~~~~
 
@@ -31,9 +29,8 @@ IDE].
 2.  Install the Maven archetypes used to create the example
 applications.
 
-[[GCSKJ]]
+[[GCSKJ]][[install-the-maven-archetypes]]
 
-[[install-the-maven-archetypes]]
 Install the Maven Archetypes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -55,9 +52,8 @@ Required Projects* check box, and click *Open Project*.
 
 The required projects, including the archetypes, will be built.
 
-[[GCRKN]]
+[[GCRKN]][[creating-the-web-service]]
 
-[[creating-the-web-service]]
 Creating the Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -82,9 +78,8 @@ from the `DukesBirthdayBean` enterprise bean and `firstcup-war` web
 client. The `dukes-age` web application could be deployed on a completely different machine
 without affecting the functionality of the `firstcup-war` web client.
 
-[[GCROM]]
+[[GCROM]][[jax-rs-resources]]
 
-[[jax-rs-resources]]
 JAX-RS Resources
 ^^^^^^^^^^^^^^^^
 
@@ -102,9 +97,8 @@ responder to HTTP GET requests, and `@Produces` specifies the MIME-type
 of the response sent back from `getText` to clients. In this case, the
 MIME-type is `text/plain`.
 
-[[GCROI]]
+[[GCROI]][[creating-the-dukes-age-application-using-the-maven-archetype]]
 
-[[creating-the-dukes-age-application-using-the-maven-archetype]]
 Creating the dukes-age Application Using the Maven Archetype
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -187,9 +181,8 @@ return "" + dukesAge;
 3.  In the editor window, right-click and select *Format*.
 4.  From the *File* menu, select *Save* to save the file.
 
-[[sthref9]]
+[[sthref9]][[starting-glassfish-server-and-the-database-server]]
 
-[[starting-glassfish-server-and-the-database-server]]
 Starting GlassFish Server and the Database Server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -203,9 +196,8 @@ Both the database server and the GlassFish Server instance will start.
 In the tab where the GlassFish Server instance is running, you can see
 the contents of the server log.
 
-[[GCTOZ]]
+[[GCTOZ]][[building-and-deploying-the-web-service-endpoint]]
 
-[[building-and-deploying-the-web-service-endpoint]]
 Building and Deploying the Web Service Endpoint
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

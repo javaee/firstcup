@@ -7,9 +7,8 @@ prev=intro002.html
 = Understanding Java Platform, Enterprise Edition
 
 
-[[GCRLO]]
+[[GCRLO]][[understanding-java-platform-enterprise-edition]]
 
-[[understanding-java-platform-enterprise-edition]]
 2 Understanding Java Platform, Enterprise Edition
 -------------------------------------------------
 

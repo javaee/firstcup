@@ -7,9 +7,8 @@ prev=java-ee.html
 = Overview of Enterprise Applications
 
 
-[[GCRKY]]
+[[GCRKY]][[overview-of-enterprise-applications]]
 
-[[overview-of-enterprise-applications]]
 Overview of Enterprise Applications
 -----------------------------------
 
@@ -32,9 +31,8 @@ platform reduces the complexity of enterprise application development by
 providing a development model, API, and runtime environment that allow
 developers to concentrate on functionality.
 
-[[GCRKR]]
+[[GCRKR]][[tiered-applications]]
 
-[[tiered-applications]]
 Tiered Applications
 ~~~~~~~~~~~~~~~~~~~
 
@@ -50,9 +48,8 @@ a permanent data store in the data tier.
 Java EE application development concentrates on the middle tier to make
 enterprise application management easier, more robust, and more secure.
 
-[[GCRLA]]
+[[GCRLA]][[the-client-tier]]
 
-[[the-client-tier]]
 The Client Tier
 ^^^^^^^^^^^^^^^
 
@@ -65,9 +62,8 @@ or even often, Java applications. Clients can be a web browser, a
 standalone application, or other servers, and they run on a different
 machine from the Java EE server.
 
-[[GCRNL]]
+[[GCRNL]][[the-web-tier]]
 
-[[the-web-tier]]
 The Web Tier
 ^^^^^^^^^^^^
 
@@ -110,9 +106,8 @@ with JavaServer Faces technology in web applications
 |=======================================================================
 
 
-[[GCRLS]]
+[[GCRLS]][[the-business-tier]]
 
-[[the-business-tier]]
 The Business Tier
 ^^^^^^^^^^^^^^^^^
 
@@ -129,9 +124,8 @@ business tier in Java EE applications:
 * JAX-RS RESTful web services
 * Java Persistence API entities
 
-[[GCRKW]]
+[[GCRKW]][[the-enterprise-information-systems-tier]]
 
-[[the-enterprise-information-systems-tier]]
 The Enterprise Information Systems Tier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

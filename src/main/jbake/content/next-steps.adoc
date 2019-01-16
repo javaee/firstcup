@@ -7,9 +7,8 @@ prev=web-application006.html
 = Next Steps
 
 
-[[GCRLL]]
+[[GCRLL]][[next-steps]]
 
-[[next-steps]]
 5 Next Steps
 ------------
 

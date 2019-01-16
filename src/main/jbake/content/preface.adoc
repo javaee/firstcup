@@ -7,9 +7,8 @@ prev=title.html
 = Preface
 
 
-[[GCQYW]]
+[[GCQYW]][[preface]]
 
-[[preface]]
 Preface
 -------
 
@@ -18,9 +17,8 @@ Edition, a short tutorial for beginning Java EE programmers. This
 tutorial is designed to give you a hands-on lesson on developing an
 enterprise application from initial coding to deployment.
 
-[[sthref2]]
+[[sthref2]][[audience]]
 
-[[audience]]
 Audience
 ~~~~~~~~
 
@@ -30,9 +28,8 @@ introduced in Java Platform, Standard Edition 8. While familiarity with
 enterprise development and Java EE technologies is helpful, this
 tutorial assumes you are new to developing Java EE applications.
 
-[[sthref3]]
+[[sthref3]][[documentation-accessibility]]
 
-[[documentation-accessibility]]
 Documentation Accessibility
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -50,9 +47,8 @@ support through My Oracle Support. For information, visit
 `http://www.oracle.com/pls/topic/lookup?ctx=acc&id=trs` if you are
 hearing impaired.
 
-[[GCQYU]]
+[[GCQYU]][[before-you-read-this-book]]
 
-[[before-you-read-this-book]]
 Before You Read This Book
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -62,9 +58,8 @@ Before you start this tutorial, you should:
 * Be able to install software on your work machine
 * Have a modern web browser installed on your work machine
 
-[[GCQXV]]
+[[GCQXV]][[related-books-and-projects]]
 
-[[related-books-and-projects]]
 Related Books and Projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -75,9 +70,8 @@ this tutorial:
 * The GlassFish Server Open Source Edition documentation set
 * The NetBeans IDE documentation
 
-[[sthref5]]
+[[sthref5]][[conventions]]
 
-[[conventions]]
 Conventions
 ~~~~~~~~~~~
 
